@@ -24,6 +24,27 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "Exercise 1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:5001/greeting/greet",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"greeting",
+						"greet"
+					]
+				},
+				"description": "Hello there"
+			},
+			"response": []
 		}
 	],
 	"protocolProfileBehavior": {}
